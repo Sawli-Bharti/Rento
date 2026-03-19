@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.error {
+  @apply text-red-500 text-sm mt-1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
